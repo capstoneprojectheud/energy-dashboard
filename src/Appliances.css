@@ -1,0 +1,36 @@
+.appliances {
+  padding: 20px;
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+}
+
+.appliances.light {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.controls button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #1565c0;
+}
+
+.dropdown {
+  min-width: 250px;
+}

@@ -1,0 +1,17 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.light-mode {
+  background-color: #f5f5f5;
+  color: #333;
+  min-height: 100vh;
+}
