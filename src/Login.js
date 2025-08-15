@@ -14,8 +14,18 @@ const Login = ({ onLogin }) => {
     }
   };
 
+  const backgroundStyle = {
+    backgroundImage: 'url("/backgroundadminimage.png")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    height: '100vh',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  };
+
   return (
-    <div className="login-container">
+    <div className="login-container" style={backgroundStyle}>
       <form className="login-form" onSubmit={handleSubmit}>
         <h2>Admin Login</h2>
         <input

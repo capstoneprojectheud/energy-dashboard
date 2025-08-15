@@ -1,5 +1,4 @@
 .login-container {
-  background-image: url("/backgroundadminimage.png"); /* ✅ No local file path */
   background-size: cover;
   background-position: center;
   height: 100vh;
