@@ -1,5 +1,5 @@
 .login-container {
-  background-image: url("C:\Users\dell\energy-dashboard\src\backgroundadminimage.png"); /* Add a background image here */
+  background-image: url("/backgroundadminimage.png"); /* ✅ No local file path */
   background-size: cover;
   background-position: center;
   height: 100vh;
