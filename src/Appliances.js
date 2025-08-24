@@ -33,7 +33,7 @@ const Appliances = ({ darkMode }) => {
 
   // fetch data
   useEffect(() => {
-    fetch('https://27262b3f8626.ngrok-free.app/api/data', {
+    fetch('https://9a021d784488.ngrok-free.app/api/data', {
       headers: { 'ngrok-skip-browser-warning': 'true' }
     })
       .then((res) => res.json())
