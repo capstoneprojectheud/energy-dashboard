@@ -30,7 +30,7 @@ const CostPage = ({ darkMode }) => {
   const [raw, setRaw] = useState([]);
 
   useEffect(() => {
-    fetch('https://9a021d784488.ngrok-free.app/api/data', {
+    fetch('https://ce9c70c9028f.ngrok-free.app/api/data', {
       headers: { 'ngrok-skip-browser-warning': 'true' }
     })
       .then(r => r.json())
